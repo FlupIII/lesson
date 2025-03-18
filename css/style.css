@@ -23,12 +23,12 @@
     margin: 0 188px 52px;
     align-items: center;
 }
-.heading1{
-    font: 400 42px/36px Roboto;
+.heading__1{
+    font: 400 36px/1 Roboto;
     margin: 190px 495px 69px 496px;
     text-align: center;
 }
-.advantages_icon1{
+.advantages__icon1{
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -37,7 +37,7 @@
     display: inline-block;
     align-items: center ;
 }
-.advantages_icon2{
+.advantages__icon2{
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -46,7 +46,7 @@
     display: inline-block;
     align-items: center ;
 }
-.advantages_icon3{
+.advantages__icon3{
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -55,7 +55,7 @@
     display: inline-block;
     align-items: center ;
 }
-.advantages_icon4 {
+.advantages__icon4 {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -64,7 +64,7 @@
     display: inline-block;
     align-items: center ;
 }
-.advantages_icon5 {
+.advantages__icon5 {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -73,7 +73,7 @@
     display: inline-block;
     align-items: center ;
 }
-.advantages_icon6 {
+.advantages__icon6 {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -82,10 +82,10 @@
     display: inline-block;
     align-items: center ;
 }
-.advantages_text{
-    font: 700 35px/30px Roboto
+.advantages__text{
+    font: 700 30px/1 Roboto
 }
-.advantages_item{
+.advantages__item{
     width: 339px;
     padding: 0 96px;
     text-align: center;
@@ -97,10 +97,35 @@
  list-style: none;
 }
 .heading2{
-    font: 700 42px/36px Roboto;
+    font: 700 36px/1 Roboto;
     margin: 0 368px 102px 367px;
     text-align: center;
 }
+.persons__item{
+    display: inline-block;
+    width: 288px;
+    margin-right: 100px;
+    align-items: center;
+    text-align: center;
+}
+.persons__img{
+    width: 288px;
+    margin-bottom: 35px;
+}
+.persons__quote{
+    font: 700 22px/1 Roboto;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.persons__name{
+    font: 400 19px/1 Roboto;
+    display: block;
+    margin-bottom: 44px;
 
+}
+.persons__link{
+    font: 700 18px/1 Roboto;
+    text-decoration: underline;
+}
 
 
