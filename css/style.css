@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.investments{
+    width: 1309px;
+    margin-bottom: 100px;
+}
+.investments__title{
+    font: 600 24px/29px Montserrat;
+    width: 500px;
+}
+.investments__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px ;
+}
+.investments__item{
+    width: 312px;
+    padding: 28px 7px;
+    border-radius: 5px;
+}
+.investments__item-time{
+    font: 600 12px/15px Montserrat;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    color: rgba(190, 23, 54, 1);
+}
+.investments__item-img{
+     display: block;
+     margin: 0 auto 30px;
+     width: 126px;
+}
+.investments__item-type{
+    display: flex;
+    font: 600 16px/1 Montserrat;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.investments__item-info{
+    font: 400 14px/1 Montserrat;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 30px;
+}
+.highlight{
+    font: 300 14px/1 Montserrat;
+    color: rgba(20, 85, 216, 1);
+    font-weight: bold;
+}
+.investments__item-btn{
+    font: 400 14px/1 Montserrat;
+    width: 262px;
+    height: 50px;
+    border: 2px solid rgba(87, 87, 86, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.btn-center{
+    font: 400 14px/1 Montserrat;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(87, 87, 86, 1);
+    width: 262px;
+    height: 50px;
+    margin: 0 auto;
+}
+.about{
+    width: 1309px;
+}
+.about__title{
+    font: 600 24px/1 Montserrat;
+    display: flex;
+    flex-direction: row;
+    width: 496px;
+}
+.about__img{
+    display: block;
+    width: 644px;
+    height: 418px;
+    margin-right: 91px;
+    margin-top: 30px;
+    border: ;
+}
+.about__item-title{
+    display: block;
+    font: 600 18px/1 Montserrat;
+    margin-bottom: 10px;
+}
+.about__item-text{
+    font: 400 14px/1 Montserrat;
+}
+.about__block-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 573px;
+}
+.about__item{
+    margin-bottom: 30px;
+}
+.about__item:last-child{
+    margin-bottom: 0;
+}
+.about__container{
+    display: flex;
+    flex-direction: row;
+
+}
+.about__list{
+    list-style: none;
+}
