@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background: #F2F8F6;
+
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.about__header{
+    font: 500 50px/140% "Roboto";
+    margin-bottom: 19px;
+    color: #26292E;
+}
+.about__text{
+    font: 400 20px/140% "Roboto";
+    margin-bottom: 23px;
+    color: #26292E;
+}
+.button{
+    font: 500 20px/1 "Roboto";
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 57px;
+    background: #408858;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 42px;
+}
+.services__item{
+    display: flex;
+    align-items: center;
+}
+.services__item-check{
+    width: 12px;
+    height: 13px;
+    margin-right: 3px;
+}
+.services__item-text{
+    font: 500 20px/1 "Roboto";
+    color: #26292E;
+}
+.text-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: end;
+    width: 550px;
+}
+.about{
+    padding: 115px 39px 57px 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 1280px;
+    color: #F2F8F6;
+}
+.image-block{
+    display: flex;
+    position: relative;
+    width: 446px;
+    margin-right: 35px;
+}
+.image__border{
+    border: 20px solid #3D8455;
+    color: transparent;
+    width: 446px;
+    height: 437px;
+    z-index: 1;
+}
+.image{
+    position: absolute;
+    width: 223px;
+    height: 577px;
+    z-index: 2;
+    top: -97px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.image__background{
+    position: absolute;
+    width: 446px;
+    height: 437px;
+    background: #FFF;
+    top: -48px;
+    left: -33px;
+}
